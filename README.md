@@ -4,9 +4,7 @@ Since I could not download my iPhone 11 Pro Max data and screen usage, I decided
 
 I wrote this application because I just got my phone back and I have tried to maintain a healthy screen time without it for over 10 months. Mimickly tracking how much data and screen time I potentially use is of great importance to me.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Data Cleaning & CSV Generator Demo Video](https://youtu.be/Rw5x1LPnpZM)
 
 # Development Environment
 
