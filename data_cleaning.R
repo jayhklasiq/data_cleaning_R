@@ -22,10 +22,16 @@ print(cleaned_data)
 cat("\nSummary Statistics:")
 summary(cleaned_data)
 
-# Use a loop to iterate over columns or rows
-for (col in colnames(cleaned_data)) {
-  # Perform some operation on each column
+
+#The for loop checks for days that home usage was over 1gb and prints it to the 
+#screen alongside the date and screentime hours.
+for (i in seq(nrow(cleaned_data))) {
+  if (cleaned_data$Wifi_Used_at_Home[i] > 1) {
+    cat("Date:", cleaned_data$Date[i], "\n")
+    cat("Screentime Hours:", cleaned_data$Screentime_Hours[i], "\n")
+    cat("Data Usage from Home Wifi:", cleaned_data$Wifi_Used_at_Home[i], "GB\n\n")
+  }
 }
 
-# Continue with any additional analysis or visualization steps
+
 
