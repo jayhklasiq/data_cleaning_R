@@ -18,15 +18,10 @@ I used R programming language. I used the RStudio IDE to write the code. I also 
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
 - [LinkedIn Learning](https://www.linkedin.com/learning/r-for-data-science-analysis-and-visualization?u=2153100)
 - [W3 Schools - R](https://my-learning.w3schools.com/tutorial/r)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+- Might add a graph to show the pattern of my screentime usage on a graph. This might help me see if there are similarities in days of usage.
+- I would love to add the original data from my phone. I might be able to do that with another programming language then generate a csv that the R program will use.
